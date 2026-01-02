@@ -51,3 +51,17 @@ body {
     align-items: center;
     gap: 20px;
 }
+
+/* City spacing and margins */
+.city {
+    padding: 0px 10px 10px 10px;
+}
+
+.col {
+    padding: 10px 10px 10px 10px;
+}
+
+/* Text Styles for humidity and wind */
+.humidity, .wind {
+    font-size: 24px;
+}
