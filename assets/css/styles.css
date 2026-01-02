@@ -12,9 +12,42 @@ body {
 .card {
     width: 50%;
     max-width: 470px;
-    background-color: linear-gradient(90deg, #059862, #7FFFD4);
+    background: linear-gradient(90deg, #059862, #7FFFD4);
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 20px 20px;
     text-align: center;
+}
+
+/*Adjusting style of search div */
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Adjusting Style of text box for search */
+.search input {
+    color: blue;
+    padding: 10px 10px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+/* Water Icon */
+.water-icon {
+    background:#059862
+}
+
+/* Col Flex */
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
